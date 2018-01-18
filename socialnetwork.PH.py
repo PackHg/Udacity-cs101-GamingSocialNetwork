@@ -182,7 +182,7 @@ class SyntaxError(Exception):
     def __init__(self, sentence):
         self.sentence = sentence
     def display(self):
-        print ("Syntax Error. " + self.sentence)
+        print "Syntax Error. " + self.sentence
 
 
 class Network(dict):
